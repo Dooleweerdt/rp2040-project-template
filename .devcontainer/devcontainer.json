@@ -1,0 +1,6 @@
+//devcontainer.json
+{
+    "name": "RP2040 rust",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "image": "docker-rust-rp2040:latest"
+}
