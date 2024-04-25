@@ -1,0 +1,2 @@
+# Script to setup OpenOCD debug server (GDB interface)
+openocd -f /usr/share/openocd/scripts/interface/cmsis-dap.cfg -f /usr/share/openocd/scripts/target/rp2040.cfg -s tcl -c "adapter speed 1000" -c "bindto 172.17.0.1"
